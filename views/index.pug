@@ -1,0 +1,13 @@
+extends layout
+
+block content
+  .w3-container
+    h1 Upload a file to find out its details!
+    form(action="/file", enctype="multipart/form-data", method="post")
+      input(type="file", name="uploader")
+      button.w3-btn.w3-blue(type="submit") Submit
+    div.w3-card-4
+      h4 Filename : #{name}
+      h4 Encode Type : #{encode}
+      h4 Mime Type : #{mime}
+      h4 File Size : #{size | 0} bytes
