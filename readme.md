@@ -1,5 +1,5 @@
 # File Metadata Microservice API Project
-## Project assigned from FreeCodeCamp
 
+View working [demo](file-metadata-atrinh567.herokuapp.com) on my heroku! 
 
-View working application on my heroku! 
+Project assigned by FreeCodeCamp!
